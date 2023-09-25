@@ -6,6 +6,7 @@ import Root from './components/Root/Root'
 import Donation from './components/Donation/Donation'
 import Statistics from './components/Statistics/Statistics'
 import Home from './components/Home/Home'
+import DonationDetails from './components/DonationDetails/DonationDetails'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path : '/statistics',
         element : <Statistics></Statistics>
+      },
+      {
+        path : '/:id',
+        element : <DonationDetails></DonationDetails>,
+        loader : ()=> fetch('/public/donation.json')
       }
     ]
   }

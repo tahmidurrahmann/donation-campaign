@@ -3,7 +3,7 @@ import { setDataToLs } from "../SaveDonationToLs/SaveDonationToLs";
 import DonationPage from "../DonationPage/DonationPage";
 
 const Donation = () => {
-    const [dataPage, setDataPage] = useState([])
+    const [dataPage, setDataPage] = useState([]);
     const [seeMore, setSeeMore] = useState(false);
 
     useEffect(() => {

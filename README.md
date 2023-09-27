@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# FAQs of Donation Campaign
+# Question : Add at least 3 Project Features
+The website is about Donation Campaign. You can choose any category which you like to donate. The project features in this campaign are -
+* When you choose the category which you want to donate, then you should click at that card which have category name. You can click any where in that card. when you clicked a card, the description of that card and the price of donation will be visible in front of you. then you can donate the money for good. but you can't donate a card's price twice.When you donate a card's price, you should go to Donation NavLink to see that your donation is added or not. If you donated more than 4 cards, then a button will be visible in front of you named See More, if you clicked on that button, then all cards will show to your donation page.
+* There is a search bar in Home page. If you write the category name in that search bar and clicked on that button, then you will only see the category of cards which you searched.
+* When you donated the prices and also checked that donations in the NavLink of Donation, then there is a Statistics NavLink, where you can go and see the pieChart which shows the percentage of Total Donation and your Donation. 
